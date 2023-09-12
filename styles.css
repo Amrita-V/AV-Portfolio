@@ -68,12 +68,12 @@ ul{
  
  .hover-link{
      /* color: var(--primary-text-color); */
-     color: var(--accent-color-dark);
+     color: white;
      transition: 0.2s ease-out;
  }
  .hover-link:hover{
      /* color: var(--accent-color); */
-     color: var(--primary-text-color);
+     color:#b2d2f0;
      font-weight: bold;
  }
  
@@ -110,11 +110,18 @@ ul{
  
 
 /* NAV BAR */
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    height: 50px;
+}
 
 .main-nav{
-    margin-top:20px ;
 justify-content: space-between;
-position: relative;
+padding:0 80px;
+/* position: relative; */
+background-color: #183b56;
 }
 
 .company-logo img{
@@ -138,8 +145,8 @@ header{
     padding: 10px var(--padding-inline-section) 0;
 }
 
-#header-section{
-    margin: 20px 0;
+#about-section{
+margin: 100px 0 20px;
 }
 .header-section{
     justify-content: space-evenly;

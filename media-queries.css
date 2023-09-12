@@ -4,18 +4,23 @@
     h3{
         font-size: 1.2rem;
     }
+    
     .nav-toggle{
         display: block;
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .main-nav{
         overflow: initial;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        justify-content: space-between;
        
     }
     .nav-links{
        position: absolute;
-       background: white;
+       background-color: #183b56;
        top: 100%;
        left: -100%;
        width: 100%;
@@ -45,7 +50,7 @@
 
 @media screen and (max-width:767px) {
     .header-section{
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
