@@ -21,7 +21,7 @@
     .nav-links{
        position: absolute;
        background-color: #183b56;
-       top: 100%;
+       top: 120%;
        left: -100%;
        width: 100%;
        padding-block:20px;
@@ -61,9 +61,6 @@
     .primary-btn{
         width: 100%;
     }
-
-    
-    
     
     .footer-container{
         flex-direction: column;
@@ -71,10 +68,7 @@
         text-align: center;
         gap: 20px;
     }
-
-    
    }
-
 
    @media  screen and (max-width: 479px){
     :root{
@@ -127,6 +121,4 @@
         padding: 10px 20px;
         gap: 5px;
     }
-    
-
    }
